@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#191919">
+  <title>Hero Games</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <aside class="sidebar">
+    <div class="logo">
+      <span>Hero</span> Games
+    </div>
+
+    <nav>
+      <a href="#" class="active" data-page="home">
+        <span>⌂</span> Início
+      </a>
+
+      <a href="#" data-page="library">
+        <span>▦</span> Biblioteca
+      </a>
+    </nav>
+
+    <div class="sidebar-bottom">
+      HERO GAMES © 2026
+    </div>
+  </aside>
+
+  <main>
+    <header>
+      <div>
+        <h2 id="page-title">Início</h2>
+        <p id="page-description">Bem-vindo ao Hero Games.</p>
+      </div>
+
+      <input
+        id="search"
+        type="search"
+        placeholder="⌕  Procurar jogos..."
+        hidden
+      >
+    </header>
+
+    <section id="home-page">
+      <div class="hero">
+        <div class="hero-content">
+          <span class="hero-label">HERO GAMES</span>
+
+          <h1>
+            Seu próximo jogo<br>
+            está aqui.
+          </h1>
+
+          <p>
+            Descubra jogos incríveis e explore uma coleção
+            de experiências diretamente no navegador.
+          </p>
+
+          <button id="explore-button">
+            Explorar biblioteca
+          </button>
+        </div>
+      </div>
+
+      <div class="welcome">
+        <h2>Bem-vindo ao Hero Games</h2>
+        <p>
+          Um lugar para descobrir novos jogos,
+          conhecer clássicos e encontrar sua próxima aventura.
+        </p>
+      </div>
+    </section>
+
+    <section id="library-page" hidden>
+      <div class="section-header">
+        <div>
+          <h2>Biblioteca de jogos</h2>
+          <p id="game-count">Explore nossa coleção.</p>
+        </div>
+      </div>
+
+      <div class="games-grid" id="games"></div>
+    </section>
+
+    <footer>
+      HERO GAMES © 2026
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
